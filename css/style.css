@@ -830,10 +830,17 @@ label {
     transition: fill var(--transition-duration-function);
 }
 
-.black-svg:focus,
-.input-description:focus {
-    color: #4D5AE5;
+.input-description:focus+.black-svg {
+    fill: #4D5AE5;
 }
+
+.modal-checkbox:checked+.modal-form-field-checkbox>.fake-chackbox {
+    background-color: var(--accent-color);
+    border: none;
+    fill: #FFFFFF;
+    border-color: var(--accent-color);
+}
+
 
 .modal-textarea-wraper {
     margin-bottom: 16px;
