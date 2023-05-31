@@ -830,7 +830,8 @@ label {
     transition: fill var(--transition-duration-function);
 }
 
-.black-svg:focus {
+.black-svg:focus,
+.input-description:focus {
     color: #4D5AE5;
 }
 
